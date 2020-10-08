@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">TestApplication</string>
+    <string name="find_description">Определить описание</string>
+    <string-array name="colors">
+        <item>Красный</item>
+        <item>Синий</item>
+        <item>Голубой</item>
+    </string-array>
+    <string-array name="colors_descriptions">
+        <item>Красный цвет - описание</item>
+        <item>Синий цвет - описание</item>
+        <item>Голубой цвет - описание</item>
+    </string-array>
 </resources>
