@@ -60,10 +60,23 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Send message to new Intend"
         android:onClick="newIntend"
+        android:text="Send message to new Intend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonButton"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Button
+        android:id="@+id/buttonSendToAndroidMethod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Send Message to Android"
+        android:onClick="selectAndroidSend"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonButton" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

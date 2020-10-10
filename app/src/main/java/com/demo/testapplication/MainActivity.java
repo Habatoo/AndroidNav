@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CreateMessageActivity.class);
         startActivity(intent);
     }
+
+    public void selectAndroidSend(View view) {
+        Intent intent = new Intent(this, DiffMessageActivity.class);
+        startActivity(intent);
+    }
 }

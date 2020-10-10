@@ -3,6 +3,9 @@
     <string name="find_description">Определить описание</string>
     <string name="send_message">Отправить сообщение</string>
     <string name="enter_message">Введите сообщение</string>
+    <string name="send_message_select">Отправить сообщение (выбрать метод)</string>
+    <string name="diff_message_hint">Введите сообщение</string>
+    <string name="send_question">Как отправить сообщение?</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>
