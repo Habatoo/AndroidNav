@@ -1,5 +1,6 @@
 package com.demo.testapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -18,11 +19,27 @@ public class WatchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_watch);
 
         textViewTimer = findViewById(R.id.textViewTimer);
+
+        // savedInstanceState = null if activity start first time
+        if (savedInstanceState != null) {
+            // take saved data by name
+            seconds = savedInstanceState.getInt("seconds");
+            isRunning = savedInstanceState.getBoolean("isRunning");
+        }
         runTimer();
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // save parameters to send them to new instance
+        outState.getInt("seconds", seconds);
+        outState.getBoolean("isRunning", isRunning);
     }
 
     public void startWatch(View view) {
