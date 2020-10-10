@@ -43,4 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DiffMessageActivity.class);
         startActivity(intent);
     }
+
+    public void startWatch(View view) {
+        Intent intent = new Intent(this, WatchActivity.class);
+        startActivity(intent);
+    }
 }

@@ -6,6 +6,14 @@
     <string name="send_message_select">Отправить сообщение (выбрать метод)</string>
     <string name="diff_message_hint">Введите сообщение</string>
     <string name="send_question">Как отправить сообщение?</string>
+    <string name="watch_activity">Watch Activity</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="send_message_to_android">Send Message to Android</string>
+    <string name="send_message_to_new_intend">Send message to new Intend</string>
+    <string name="spinner">Spinner</string>
+    <string name="init_time">0:00:00</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>

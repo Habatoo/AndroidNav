@@ -48,12 +48,12 @@
         android:id="@+id/buttonButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="324dp"
+        android:layout_marginBottom="508dp"
         android:onClick="onClickSpinner"
-        android:text="Spinner"
+        android:text="@string/spinner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -61,22 +61,35 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:onClick="newIntend"
-        android:text="Send message to new Intend"
+        android:text="@string/send_message_to_new_intend"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonButton"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <Button
         android:id="@+id/buttonSendToAndroidMethod"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Send Message to Android"
         android:onClick="selectAndroidSend"
+        android:text="@string/send_message_to_android"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/buttonWatcher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/watch_activity"
+        android:onClick="startWatch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSendToAndroidMethod" />
 </androidx.constraintlayout.widget.ConstraintLayout>
