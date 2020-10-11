@@ -16,6 +16,12 @@
     <string name="init_time">0:00:00</string>
     <string name="watch_adding_activity">Watch adding activity</string>
     <string name="init_timer">0:00:00</string>
+    <string name="cafe_logo">Cafe Logo</string>
+    <string name="welcome_text">Добро пожаловать</string>
+    <string name="enter_name_hint">Введите имя:</string>
+    <string name="enter_password_hint">Введите пароль:</string>
+    <string name="create_order">Сделать заказ</string>
+    <string name="toast_text">Все значения должны быть заполнены!</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>

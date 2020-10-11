@@ -49,8 +49,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void addingSartWatch(View view) {
+    public void addingStartWatch(View view) {
         Intent intent = new Intent(this, WatchActivityAddActivity.class);
+        startActivity(intent);
+    }
+
+    public void startCafeProject(View view) {
+        Intent intent = new Intent(this, CafeProjectActivity.class);
         startActivity(intent);
     }
 }
