@@ -14,6 +14,8 @@
     <string name="send_message_to_new_intend">Send message to new Intend</string>
     <string name="spinner">Spinner</string>
     <string name="init_time">0:00:00</string>
+    <string name="watch_adding_activity">Watch adding activity</string>
+    <string name="init_timer">0:00:00</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>
