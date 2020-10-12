@@ -22,6 +22,19 @@
     <string name="enter_password_hint">Введите пароль:</string>
     <string name="create_order">Сделать заказ</string>
     <string name="toast_text">Все значения должны быть заполнены!</string>
+    <string name="hello_client">Привет, %s! Что будете заказывать?</string>
+    <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
+    <string name="choose_in_drink">Что добавить в ваш %s?</string>
+    <string name="milk">Молоко</string>
+    <string name="sugar">Сахар</string>
+    <string name="lemon">Лемон</string>
+    <string name="choose_drink">Выбирите вид напитка</string>
+    <string name="send_order">Кнопка заказа</string>
+    <string name="default_name">клиент</string>
+    <string name="default_password">пароль</string>
+    <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка %s\n</string>
+    <string name="additions">\"Необходимые добавки: \"</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>
@@ -31,5 +44,17 @@
         <item>Красный цвет - описание</item>
         <item>Синий цвет - описание</item>
         <item>Голубой цвет - описание</item>
+    </string-array>
+
+    <string-array name="options_of_coffee">
+        <item>Американо</item>
+        <item>Латте</item>
+        <item>Эспрессо</item>
+    </string-array>
+
+    <string-array name="options_of_tea">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
     </string-array>
 </resources>
