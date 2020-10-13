@@ -112,10 +112,23 @@
         android:id="@+id/buttonCafe"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Cafe project"
         android:onClick="startCafeProject"
+        android:text="Cafe project"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTimerWithAdding"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/buttonShop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Shop project"
+        android:onClick="startShopProject"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTimerWithAdding" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCafe" />
 </androidx.constraintlayout.widget.ConstraintLayout>

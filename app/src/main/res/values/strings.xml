@@ -35,6 +35,7 @@
     <string name="default_password">пароль</string>
     <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
     <string name="additions">Необходимые добавки: </string>
+    <string name="logo_drill_shop">Логотип магазина инструментов</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>
@@ -56,5 +57,11 @@
         <item>Черный</item>
         <item>Зеленый</item>
         <item>Красный</item>
+    </string-array>
+
+    <string-array name="tools_list">
+        <item>Дрели</item>
+        <item>Перфораторы</item>
+        <item>Болгарки</item>
     </string-array>
 </resources>

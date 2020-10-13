@@ -58,4 +58,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CafeProjectActivity.class);
         startActivity(intent);
     }
+
+    public void startShopProject(View view) {
+        Intent intent = new Intent(this, ShopProjectActivity.class);
+        startActivity(intent);
+    }
 }
