@@ -17,7 +17,7 @@
     <string name="watch_adding_activity">Watch adding activity</string>
     <string name="init_timer">0:00:00</string>
     <string name="cafe_logo">Cafe Logo</string>
-    <string name="welcome_text">Добро пожаловать</string>
+    <string name="welcome_text">Добро пожаловать!</string>
     <string name="enter_name_hint">Введите имя:</string>
     <string name="enter_password_hint">Введите пароль:</string>
     <string name="create_order">Сделать заказ</string>
@@ -33,8 +33,8 @@
     <string name="send_order">Кнопка заказа</string>
     <string name="default_name">клиент</string>
     <string name="default_password">пароль</string>
-    <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка %s\n</string>
-    <string name="additions">\"Необходимые добавки: \"</string>
+    <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
+    <string name="additions">Необходимые добавки: </string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>
