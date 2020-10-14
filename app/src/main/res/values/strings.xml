@@ -36,6 +36,7 @@
     <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
     <string name="additions">Необходимые добавки: </string>
     <string name="logo_drill_shop">Логотип магазина инструментов</string>
+    <string name="drill_logo">Логотип дрели</string>
     <string-array name="colors">
         <item>Красный</item>
         <item>Синий</item>
@@ -79,6 +80,14 @@
         <item>Empty</item>
         <item>Empty</item>
         <item>Empty</item>
-
     </string-array>
+
+    <string name="drill_interskol_title">Дрель Интерскол</string>
+    <string name="drill_makita_title">Дрель Makita</string>
+    <string name="drill_dewalt_title">Дрель DeWalt</string>
+
+    <string name="drill_interskol_info">Подробное описание дрелей Интерскол.</string>
+    <string name="drill_makita_info">Подробное описание дрелей Makita.</string>
+    <string name="drill_dewalt_info">Подробное описание дрелей DeWalt.</string>
+    <string name="interskol_pic">Интерскол дрель</string>
 </resources>

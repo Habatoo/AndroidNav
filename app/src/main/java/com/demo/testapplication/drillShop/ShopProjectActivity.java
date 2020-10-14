@@ -1,4 +1,4 @@
-package com.demo.testapplication;
+package com.demo.testapplication.drillShop;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.demo.testapplication.R;
+import com.demo.testapplication.drillShop.DrillActivity;
 
 public class ShopProjectActivity extends AppCompatActivity {
 
@@ -37,7 +40,6 @@ public class ShopProjectActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                 }
-                Toast.makeText(getApplicationContext(), "Позиция: " + position, Toast.LENGTH_SHORT).show();
             }
         });
     }
