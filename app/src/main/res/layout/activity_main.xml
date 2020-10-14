@@ -6,129 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonEnter"
+    <ListView
+        android:id="@+id/listViewProjects"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="onClickEnter"
-        android:text="Enter"
-        app:layout_constraintBottom_toTopOf="@+id/buttonFirst"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
-
-    <Button
-        android:id="@+id/buttonFirst"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="onClickFirst"
-        android:text="First"
-        app:layout_constraintBottom_toTopOf="@+id/buttonSecond"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonEnter" />
-
-    <Button
-        android:id="@+id/buttonSecond"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="onClickSecond"
-        android:text="Second"
-        app:layout_constraintBottom_toTopOf="@+id/buttonButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirst"
-        app:layout_constraintVertical_bias="0.692" />
-
-    <Button
-        android:id="@+id/buttonButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="508dp"
-        android:onClick="onClickSpinner"
-        android:text="@string/spinner"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="newIntend"
-        android:text="@string/send_message_to_new_intend"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonButton"
-        app:layout_constraintVertical_bias="0.026" />
-
-    <Button
-        android:id="@+id/buttonSendToAndroidMethod"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="selectAndroidSend"
-        android:text="@string/send_message_to_android"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/buttonWatcher"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="startWatch"
-        android:text="@string/watch_activity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSendToAndroidMethod"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/buttonTimerWithAdding"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="addingStartWatch"
-        android:text="@string/watch_adding_activity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonWatcher"
-        app:layout_constraintVertical_bias="0.037" />
-
-    <Button
-        android:id="@+id/buttonCafe"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="startCafeProject"
-        android:text="Cafe project"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTimerWithAdding"
-        app:layout_constraintVertical_bias="0.048" />
-
-    <Button
-        android:id="@+id/buttonShop"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Shop project"
-        android:onClick="startShopProject"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/main_list"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCafe" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

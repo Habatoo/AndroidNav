@@ -64,4 +64,21 @@
         <item>Перфораторы</item>
         <item>Болгарки</item>
     </string-array>
+
+    <string-array name="main_list">
+        <item>Image gallery with clicks</item>
+        <item>Image gallery with button</item>
+        <item>Image gallery simple</item>
+        <item>Color Descriptor</item>
+        <item>Messenger</item>
+        <item>Messenger to Android</item>
+        <item>Watch Activity</item>
+        <item>Watch with rotation Phone</item>
+        <item>Cafe Project</item>
+        <item>Drill Shop</item>
+        <item>Empty</item>
+        <item>Empty</item>
+        <item>Empty</item>
+
+    </string-array>
 </resources>
