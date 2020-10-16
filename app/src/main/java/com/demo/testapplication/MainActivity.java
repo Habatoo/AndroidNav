@@ -72,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent shop = new Intent(getApplicationContext(), ShopProjectActivity.class);
                         startActivity(shop);
                         break;
+                    case 10:
+                        Intent timeTable = new Intent(getApplicationContext(), TimeTableActivity.class);
+                        startActivity(timeTable);
+                        break;
                 }
             }
         });

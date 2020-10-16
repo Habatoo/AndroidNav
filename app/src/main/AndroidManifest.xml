@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TimeTableActivity"></activity>
         <activity android:name=".drillShop.DrillDetailActivity" />
         <activity android:name=".drillShop.DrillActivity" />
         <activity android:name=".drillShop.ShopProjectActivity" />
