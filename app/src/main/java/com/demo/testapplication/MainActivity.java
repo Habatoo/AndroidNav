@@ -76,6 +76,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent timeTable = new Intent(getApplicationContext(), TimeTableActivity.class);
                         startActivity(timeTable);
                         break;
+                    case 11:
+                        Intent internetGetter = new Intent(getApplicationContext(), InternetGetterActivity.class);
+                        startActivity(internetGetter);
+                        break;
                 }
             }
         });
