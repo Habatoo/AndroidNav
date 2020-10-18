@@ -93,4 +93,6 @@
     <string name="drill_makita_info">Подробное описание дрелей Makita.</string>
     <string name="drill_dewalt_info">Подробное описание дрелей DeWalt.</string>
     <string name="interskol_pic">Интерскол дрель</string>
+    <string name="show_html">Show HTML</string>
+    <string name="show_image">Show Image</string>
 </resources>
